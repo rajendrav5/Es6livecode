@@ -1,4 +1,4 @@
-Test your ES6 snippets on the fly.
+Test your ESN snippets on the fly.
 
 `npm i`
 
