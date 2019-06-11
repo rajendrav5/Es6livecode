@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("class HellWorld {\n  constructor() {\n    console.log(\"Live code JS is on...please change your js\");\n  }\n\n}\n\nconst inst1 = new HellWorld();\n\n//# sourceURL=webpack:///./scripts/index.js?");
+eval("class HellWorld {\n  constructor() {\n    console.log(\"Live code JS is on...please change your js\");\n  }\n\n}\n\nconst newHello = new HellWorld();\n\n//# sourceURL=webpack:///./scripts/index.js?");
 
 /***/ })
 

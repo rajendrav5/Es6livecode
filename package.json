@@ -1,16 +1,18 @@
 {
-  "name": "es6",
+  "name": "LiveCode",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Run your JS Snippets on the fly with inbuilt Es6 traspilation",
   "scripts": {
     "bundle": "webpack --config webpack.config.js",
     "runJs": "node dist/app.js",
+    "clear": "node -e \"process.stdout.write('\\033c')\"",
     "start": "npm run bundle && npm run runJs",
+    "clean-start": "npm run bundle && npm run clean && npm run runJS",
+    "clean-hot": "watch 'npm run clean-start' scripts",
     "hot": "watch 'npm run start' scripts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rajendra Kumar V",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
