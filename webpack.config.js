@@ -1,6 +1,6 @@
-
 module.exports = {
     entry: "./scripts/index",
+    mode: "development",
     output: {
         filename: "app.js",
         path: __dirname + '/dist'
@@ -13,5 +13,5 @@ module.exports = {
                 loader:"babel-loader",
             }
         }]
-    }
+    },
 };
